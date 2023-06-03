@@ -4,6 +4,7 @@
 }
 
 body {
+    height: 100vh;
     font-family: Montserrat;
     margin: 3% 15%;
     background-color: var(--background-color);
@@ -174,7 +175,7 @@ header .header-right img {
 
 /*A propos de moi*/
 .about {
-    margin-top: 90px;
+    margin-top: 290px;
 }
 
 .about p {
@@ -456,6 +457,10 @@ footer p{
     text-decoration: none;
     color: white;
     margin-left: -39px;
+}
 
-    
+#container {
+    position: absolute;
+    margin-left: 990px;
+    margin-top: 550px;
 }
