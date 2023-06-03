@@ -67,15 +67,15 @@ nav {
 
 .localisation {
     position: absolute;
-    margin-top: 500px;
-    margin-left: 655px;
+    margin-top: 430px;
+    margin-left: 845px;
     color: white;
 }
 
 .localisation:hover {
     position: absolute;
-    margin-top: 500px;
-    margin-left: 655px;
+    margin-top: 430px;
+    margin-left: 845px;
     color: red;
 }
 
@@ -461,6 +461,6 @@ footer p{
 
 #container {
     position: absolute;
-    margin-left: 990px;
-    margin-top: 550px;
+    margin-left: 790px;
+    margin-top: 350px;
 }
