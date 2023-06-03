@@ -1,0 +1,461 @@
+* {
+    background-color: black;
+    background-size: 100vh;
+}
+
+body {
+    font-family: Montserrat;
+    margin: 3% 15%;
+    background-color: var(--background-color);
+    color: var(--text-color); 
+    color: aliceblue;
+}
+
+.menu {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: -5px;
+    right: -28px;
+    margin-top: -9px;
+}
+
+.pp-billy {
+    position: relative;
+    margin-bottom: -150px;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+ 
+/*Paragraphes*/
+p {
+    line-height: 25px;
+    color: beige;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.titre-1 {
+    font-size: 50px;
+    margin-left: -70px;
+    margin-top: 20px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.sous-titre-1 {
+    margin-top: -35px;
+    margin-left: 0px;
+    font-size: 30px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.titre-2 {
+    margin-top: -20px;
+    margin-left: 0px;
+    font-size: 50px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.localisation {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 655px;
+    color: white;
+}
+
+.localisation:hover {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 655px;
+    color: red;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+nav ul li {
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: 550;
+    cursor: pointer;
+    position: relative;
+}
+
+/*Symbols Fonts*/
+nav ul li span{
+    position: absolute;
+    top: -5px;
+    right: -28px;
+}
+
+header {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-left {
+    flex: 6;
+    margin-right: 50px;
+}
+
+/*Mulhouse, FRANCE*/
+header .header-left a {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;    
+    text-decoration: none;
+    color: white;
+}
+
+/*Hello, je suis eddine*/
+header .header-left h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.mail-links {   
+    margin-left: -40px; 
+    text-decoration: none;
+    color: inherit;
+    position: absolute;
+    font-weight: bold;
+}
+
+.in-links {
+    margin-left: 60px;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cv-links {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    font-weight: bold;
+    height: 30px;
+    margin-left: 60px;
+}
+
+.material-symbols-outlined {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+
+
+header .header-right {
+    flex: 5;
+}
+
+header .header-right img {
+    width: 350px;
+    margin-top: -100px;
+}
+
+/*A propos de moi*/
+.about {
+    margin-top: 90px;
+}
+
+.about p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.ici-join {
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+
+.images {
+    margin-top: 100px;
+}
+
+.images .image-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.images .image-card .image-left {
+   margin-right: 50px;
+}
+
+.images .image-card .image-left img {
+   height: 360px;
+   width: 640px;
+}
+
+footer{
+   margin-top: 100px;
+}
+
+footer p{
+   font-size: 15px;
+}
+
+.saex {
+    border: 0px;
+}
+
+.join-me-footer {
+    position: relative;
+    margin-top: 55px;
+    margin-left: 433px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    color: aliceblue;
+    text-decoration: underline red 3px;
+    text-underline-position: under;
+}
+
+.see-contact-footer {
+    position: absolute;
+    margin-top: -4px;
+    margin-left: 180px;
+    font-size: 40px;
+    cursor: none;
+}
+
+.links-footer {
+    margin-top: -15px;
+}
+
+.mail-links-footer {   
+    margin-left: 300px; 
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    font-weight: bold;
+}
+
+.mail-links-footer:hover {   
+    margin-left: 300px; 
+    text-decoration: none;
+    color: red;
+    position: absolute;
+    font-weight: bold;
+}
+
+.in-links-footer {
+    margin-left: 115px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.in-links-footer:hover {
+    margin-left: 115px;
+    text-decoration: none;
+    color: red;
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cv-links-footer {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-weight: bold;
+    height: 30px;
+    margin-left: 448px;
+}
+
+.cv-links-footer:hover {
+    text-decoration: none;
+    color: red;
+    position: relative;
+    font-weight: bold;
+    height: 30px;
+    margin-left: 448px;
+}
+
+.gmp {
+    margin-top: 15px;
+}
+
+.fin-footer {
+    position: relative;
+    margin-top: 80px;
+    padding-bottom: 10px;
+    color: #808080;
+}
+
+.saouli-footer {
+    position: relative;
+    margin-left: 395px;
+
+}
+
+.copy-r-footer {
+    position: relative;
+    margin-left: 419px;
+}
+
+/*Responsive decription image du bas*/
+@media screen and (max-width: 880px){
+   .images .image-card{
+      flex-wrap: wrap;
+   }
+}
+
+/*Responsive PP et header*/
+@media screen and (max-width: 375px){
+   header{
+      flex-direction: column-reverse;
+   }
+   .pp-billy{
+    height: 20px;
+    width: 20px;
+   }
+   .titre-1 {
+    margin-left: 0px;
+   }
+
+   .zevent-billy {
+    width: 260px;
+    height: auto;
+    border: 0;
+   }
+   .clique-billy {
+    width: 260px;
+    height: auto;
+    border: 0;
+   }
+   .saex{
+    width: 260px;
+    height: auto;
+    border: 0;
+   }
+
+   .gmp{
+    height: 400px;
+    width: 260px;
+   }
+
+   .join-me-footer {
+    position: relative;
+    margin-top: 55px;
+    margin-left: 60px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    text-decoration: underline red 3px;
+    text-underline-position: under;
+   }
+
+   .see-contact-footer{
+    position: absolute;
+    margin-top: -4px;
+    margin-left: -20px;
+    font-size: 40px;
+    cursor: none;
+   }
+
+   .links-footer {
+    margin-top: -15px;
+}
+
+.mail-links-footer {   
+    margin-left: 20px; 
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    font-weight: bold;
+}
+
+.mail-links-footer:hover {   
+    margin-left: 30px; 
+    text-decoration: none;
+    color: red;
+    position: absolute;
+    font-weight: bold;
+}
+
+.in-links-footer {
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.in-links-footer:hover {
+    margin-left: 25px;
+    text-decoration: none;
+    color: red;
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cv-links-footer {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-weight: bold;
+    height: 30px;
+    margin-left: 78px;
+}
+
+.cv-links-footer:hover {
+    text-decoration: none;
+    color: red;
+    position: relative;
+    font-weight: bold;
+    height: 30px;
+    margin-left: 78px;
+}
+
+.fin-footer {
+    position: relative;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    color: #808080;
+}
+
+.saouli-footer {
+    position: relative;
+    margin-left: 25px;
+
+}
+
+.copy-r-footer {
+    position: relative;
+    margin-left: 48px;
+}
+}
+.reloadlogo{
+    text-decoration: none;
+    color: white;
+    margin-left: -39px;
+
+    
+}
