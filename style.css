@@ -22,13 +22,6 @@ body {
     margin-top: -9px;
 }
 
-.pp-billy {
-    position: relative;
-    margin-bottom: -150px;
-    border-radius: 50px;
-    margin-left: 30px;
-}
- 
 /*Paragraphes*/
 p {
     line-height: 25px;
@@ -67,15 +60,15 @@ nav {
 
 .localisation {
     position: absolute;
-    margin-top: 500px;
-    margin-left: 845px;
+    margin-top: 440px;
+    margin-left: 735px;
     color: white;
 }
 
 .localisation:hover {
     position: absolute;
-    margin-top: 500px;
-    margin-left: 845px;
+    margin-top: 440px;
+    margin-left: 735px;
     color: red;
 }
 
@@ -184,7 +177,7 @@ header .header-right img {
     font-weight: 300;
 }
 
-.ici-join {
+.ici-join1 {
     text-decoration: none;
     color: red;
     cursor: pointer;
@@ -360,17 +353,6 @@ footer p{
     width: 260px;
    }
 
-   .join-me-footer {
-    position: relative;
-    margin-top: 55px;
-    margin-left: 60px;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 900;
-    text-decoration: underline red 3px;
-    text-underline-position: under;
-   }
-
    .see-contact-footer{
     position: absolute;
     margin-top: -4px;
@@ -461,6 +443,20 @@ footer p{
 
 #container {
     position: absolute;
-    margin-left: 790px;
-    margin-top: 350px;
+    margin-left: 690px;
+    margin-top: 150px;
+}
+
+.joineddine {
+    color: red;
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.pres1 {
+    position: relative;
+    margin-top: 20px;
+    text-decoration: none;
+    margin-right: 400px;
 }
