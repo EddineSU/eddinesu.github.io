@@ -462,3 +462,18 @@ footer p{
     text-decoration: none;
     margin-right: 570px;
 }
+
+.my-skills  {
+    font-size: 27px;
+}
+
+.My-OS {
+    position: relative;
+    font-size: 22px;
+}
+
+#os-3d {
+    position: relative;
+    margin-left: 150px;
+    margin-top: 50px;
+}
