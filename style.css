@@ -60,7 +60,7 @@ nav {
 
 .localisation {
     position: absolute;
-    margin-top: 440px;
+    margin-top: 460px;
     margin-left: 735px;
     color: white;
 }
@@ -458,5 +458,5 @@ footer p{
     position: relative;
     margin-top: 20px;
     text-decoration: none;
-    margin-right: 700px;
+    margin-right: 400px;
 }
