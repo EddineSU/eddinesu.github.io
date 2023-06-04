@@ -60,15 +60,15 @@ nav {
 
 .localisation {
     position: absolute;
-    margin-top: 460px;
-    margin-left: 735px;
+    margin-top: 530px;
+    margin-left: 935px;
     color: white;
 }
 
 .localisation:hover {
     position: absolute;
-    margin-top: 440px;
-    margin-left: 735px;
+    margin-top: 530px;
+    margin-left: 935px;
     color: red;
 }
 
@@ -443,14 +443,16 @@ footer p{
 
 #container {
     position: absolute;
-    margin-left: 690px;
+    margin-left: 733px;
     margin-top: 150px;
 }
 
-.joineddine {
+#joineddine {
+    margin-left: 394px;
+    margin-top: -25px;
     color: red;
-    font-size: 30px;
-    font-weight: 900;
+    font-size: 20px;
+    font-weight: 700;
     text-decoration: none;
 }
 
@@ -458,5 +460,5 @@ footer p{
     position: relative;
     margin-top: 20px;
     text-decoration: none;
-    margin-right: 400px;
+    margin-right: 570px;
 }
