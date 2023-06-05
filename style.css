@@ -218,7 +218,7 @@ footer p{
 .join-me-footer {
     position: relative;
     margin-top: 55px;
-    margin-left: 433px;
+    margin-left: 580px;
     font-size: 18px;
     font-style: normal;
     font-weight: 900;
@@ -230,7 +230,7 @@ footer p{
 .see-contact-footer {
     position: absolute;
     margin-top: -4px;
-    margin-left: 180px;
+    margin-left: 400px;
     font-size: 40px;
     cursor: none;
 }
@@ -240,7 +240,7 @@ footer p{
 }
 
 .mail-links-footer {   
-    margin-left: 300px; 
+    margin-left: 500px; 
     text-decoration: none;
     color: white;
     position: absolute;
@@ -248,7 +248,7 @@ footer p{
 }
 
 .mail-links-footer:hover {   
-    margin-left: 300px; 
+    margin-left: 500px; 
     text-decoration: none;
     color: red;
     position: absolute;
@@ -256,7 +256,7 @@ footer p{
 }
 
 .in-links-footer {
-    margin-left: 115px;
+    margin-left: 70px;
     text-decoration: none;
     color: white;
     position: relative;
@@ -265,7 +265,7 @@ footer p{
 }
 
 .in-links-footer:hover {
-    margin-left: 115px;
+    margin-left: 70px;
     text-decoration: none;
     color: red;
     position: relative;
@@ -279,7 +279,7 @@ footer p{
     position: relative;
     font-weight: bold;
     height: 30px;
-    margin-left: 448px;
+    margin-left: 608px;
 }
 
 .cv-links-footer:hover {
@@ -288,7 +288,7 @@ footer p{
     position: relative;
     font-weight: bold;
     height: 30px;
-    margin-left: 448px;
+    margin-left: 608px;
 }
 
 .gmp {
@@ -306,13 +306,13 @@ footer p{
 
 .saouli-footer {
     position: relative;
-    margin-left: 395px;
+    margin-left: 560px;
 
 }
 
 .copy-r-footer {
     position: relative;
-    margin-left: 419px;
+    margin-left: 575px;
 }
 
 /*Responsive decription image du bas*/
@@ -324,6 +324,10 @@ footer p{
 
 /*Responsive PP et header*/
 @media screen and (max-width: 375px){
+
+    body {
+        overflow-x: hidden;
+    }
    header{
       flex-direction: column-reverse;
    }
@@ -490,3 +494,11 @@ footer p{
     margin-top: 50px;
     margin-left: 150px;
 }
+
+.cci-title {
+    margin-top: -50px;
+    margin-left: 0px;
+    font-size: 22px;
+    position: relative;
+}
+
