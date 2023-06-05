@@ -1,16 +1,11 @@
 * {
-
-}
-
-:root {
     background-color: black;
-    background-size: 100%;
+    background-size: 100vh;
 }
 
 body {
-    height: 100vh;
-    width: 100%;
     overflow-x: hidden;
+    height: 100vh;
     font-family: Montserrat;
     margin: 3% 15%;
     background-color: var(--background-color);
@@ -66,14 +61,14 @@ nav {
 
 .localisation {
     position: absolute;
-    margin-top: 530px;
+    margin-top: 600px;
     margin-left: 935px;
     color: white;
 }
 
 .localisation:hover {
     position: absolute;
-    margin-top: 530px;
+    margin-top: 600px;
     margin-left: 935px;
     color: red;
 }
@@ -298,6 +293,8 @@ footer p{
 
 .gmp {
     margin-top: 15px;
+    height: 400px;
+    width: 1335px;
 }
 
 .fin-footer {
@@ -352,11 +349,6 @@ footer p{
     width: 260px;
     height: auto;
     border: 0;
-   }
-
-   .gmp{
-    height: 400px;
-    width: 260px;
    }
 
    .see-contact-footer{
@@ -450,7 +442,7 @@ footer p{
 #container {
     position: absolute;
     margin-left: 733px;
-    margin-top: 150px;
+    margin-top: 300px;
 }
 
 #joineddine {
@@ -466,20 +458,35 @@ footer p{
     position: relative;
     margin-top: 20px;
     text-decoration: none;
-    margin-right: 570px;
+    margin-right: 670px;
 }
 
 .my-skills  {
+    margin-top: 400px;
     font-size: 27px;
 }
 
 .My-OS {
+    margin-top: 75px;
     position: relative;
     font-size: 22px;
+    margin-left: 425px;
 }
 
 #os-3d {
     position: relative;
     margin-left: 150px;
     margin-top: 50px;
+}
+
+.my-language {
+    position: relative;
+    font-size: 22px;
+    margin-top: 95px;
+    margin-left: 425px;
+}
+
+#card-competence {
+    margin-top: 50px;
+    margin-left: 150px;
 }
