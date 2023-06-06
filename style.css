@@ -1,32 +1,22 @@
 * {
-    background-color: black;
+    background-color: #000000;;
     background-size: 100vh;
 }
 
 body {
     overflow-x: hidden;
     height: 100vh;
-    font-family: Montserrat;
+    font-family: 'Syne', sans-serif;
     margin: 3% 15%;
     background-color: var(--background-color);
     color: var(--text-color); 
     color: aliceblue;
 }
 
-.menu {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    position: absolute;
-    top: -5px;
-    right: -28px;
-    margin-top: -9px;
-}
-
 /*Paragraphes*/
 p {
     line-height: 25px;
-    color: beige;
+    color: rgba(255, 255, 255, 0.4);
 }
 
 nav {
@@ -34,42 +24,72 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
- 
-.titre-1 {
-    font-size: 50px;
-    margin-left: -70px;
+
+/*First Page*/
+
+.bonjour {
+    font-family: 'Unbounded', cursive;
+    font-size: 60px;
+    margin-left: -93px;
     margin-top: 20px;
     font-weight: 700;
-    color: aliceblue;
+    color: #FFFFFF;
 }
 
-.sous-titre-1 {
-    margin-top: -35px;
+.je-suis {
+    margin-top: -40px;
     margin-left: 0px;
     font-size: 30px;
     font-weight: 600;
     color: aliceblue;
 }
 
-.titre-2 {
+.name-first-page {
+    font-family: 'Unbounded', cursive;
     margin-top: -20px;
     margin-left: 0px;
     font-size: 50px;
     font-weight: 700;
-    color: aliceblue;
+    color: #ff0000;
 }
 
-.localisation {
+.presentation {
+    position: relative;
+    margin-top: 20px;
+    text-decoration: none;
+    margin-right: 670px;
+    font-size: 24px;
+}
+
+#scroll-contact-me {
+    margin-left: 512px;
+    margin-top: -25px;
+    color: red;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#My-earth {
     position: absolute;
-    margin-top: 600px;
-    margin-left: 935px;
+    margin-left: 650px;
+    margin-top: 250px;
+}
+
+.mulhouse {
+    font-size: 20px;
+    position: absolute;
+    margin-top: 595px;
+    margin-left: 856px;
+    font-weight: 700;
     color: white;
 }
 
-.localisation:hover {
+.mulhouse:hover {
+    font-size: 20px;
     position: absolute;
-    margin-top: 600px;
-    margin-left: 935px;
+    margin-top: 595px;
+    margin-left: 856px;
     color: red;
 }
 
@@ -125,31 +145,604 @@ header .header-left h1 {
     margin-top: 30px;
 }
 
-.mail-links {   
-    margin-left: -40px; 
-    text-decoration: none;
-    color: inherit;
-    position: absolute;
-    font-weight: bold;
+/*Second Page*/
+
+.first-line {
+    position: relative;
+    margin-top: 220px;
+    height: 1.5px;
+    background-color: #ff0000;
+    border: none;
 }
 
-.in-links {
-    margin-left: 60px;
+.my-skills  {
+    background-color: #ff0000;
+    border-radius: 7px;
+    color: #121316;
+    width: 470px;
+    position: relative;
+    margin-left: 390px;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.my-skills:hover {
+    background-color: white;
+    border-radius: 7px;
+    color: #121316;
+    width: 470px;
+    position: relative;
+    margin-left: 390px;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 37px;
+    font-weight: 700;
+    box-shadow: 0 0 10px #ff0000;
+}
+
+.My-OS {
+    color: white;
+    margin-top: 75px;
+    position: relative;
+    font-size: 22px;
+    margin-left: 625px;
+}
+
+/*Linux*/
+
+.card-linux {
+    background-color: rgb(209, 209, 209);
+    border-radius: 30px;
+    width: 300px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.linux-logo {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(209, 209, 209);
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.linux-text {
+    background-color: rgb(209, 209, 209);
+    text-align: center;
+    color:  rgba(12, 12, 12, 0.829);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+
+/*Windows*/
+
+.card-windows {
+    background-color: rgb(209, 209, 209);
+    border-radius: 30px;
+    width: 300px;
+    height: 200px;
+    margin-left: 450px;
+    margin-top: -200px;
+}
+
+.windows-logo {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(209, 209, 209);
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.windows-text {
+    background-color: rgb(209, 209, 209);
+    text-align: center;
+    color:  rgba(12, 12, 12, 0.829);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+/*MacOS*/
+
+.card-macOS {
+    background-color: rgb(209, 209, 209);
+    border-radius: 30px;
+    width: 300px;
+    height: 200px;
+    margin-left: 800px;
+    margin-top: -200px;
+}
+
+.macOS-logo {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(209, 209, 209);
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.macOS-text {
+    background-color: rgb(209, 209, 209);
+    text-align: center;
+    color:  rgba(12, 12, 12, 0.829);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.about-my-os {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+/*Programming Language*/
+
+/*PYTHON*/
+
+.card-python {
+    position: relative;
+    background-color: rgba(22, 22, 22, 0.4);
+    border-radius: 30px;
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.python-logo {
+    background-color: #090909;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.python-text {
+    background-color: #090909;
+    text-align: center;
+    color:  white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+
+.about-my-programming-language {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+
+
+/*C++
+
+.card-c {
+    position: absolute;
+    background-color: rgba(22, 22, 22, 0.4);
+    border-radius: 30px;
+    width: 300px;
+    height: 200px;
+    margin-left: 400px;
+    margin-top: -200px;
+}
+
+.c-logo {
+    position: relative;
+    background-color: #090909;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.c-text {
+    position: relative;
+    background-color: #090909;
+    text-align: center;
+    color:  white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+
+.about-my-programming-language {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+*/
+
+
+
+
+
+.my-tools {
+    position: relative;
+    text-align: center;
+    margin-right: 67px;
+    color: white;
+    margin-top: 75px;
+    position: relative;
+    font-size: 22px;
+
+}
+
+.about-my-tools {
+    position: relative;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+/*Video Page*/
+
+.cci-video {
+    position: relative;
+    border-radius: 15px;
+}
+
+.cci-video:hover {
+    border-radius: 15px;
+    box-shadow: 0 0 10px #f80606;
+}
+
+.cci-title {
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 27px;
+    position: relative;
+}
+
+.cci-text {
+    margin-top: -35px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+/*Google Maps*/
+
+
+
+.gmp {
+    margin-left: 350px;
+    margin-top: 55px;
+    height: 520px;
+    width: 983px;
+    border-radius: 10px;
+}
+
+/*Contact Me*/
+
+#second-line {
+    position: relative;
+    margin-top: 20px;
+    height: 1.5px;
+    background-color: #ff0000;
+    border: none;
+}
+
+.join-me-footer {
+    position: relative;
+    margin-top: 75px;
+    margin-left: 545px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    color: aliceblue;
+    text-decoration: underline red 3px;
+    text-underline-position: under;
+}
+
+.call-to-action {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-top: -30px;
+    margin-left: 241px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+
+.mail-symbol {
+    position: absolute;
+    background-color: #242424;
+    font-size: 40px;
+    margin-top: 39px;
+    margin-left: -28px;
+}
+
+.card-mail {
+    margin-left: -40px;
+}
+
+.link-mail {
+    position: absolute;
+    margin-top: 55px;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
     text-decoration: none;
-    color: inherit;
+    background-color: #242424;
+    border-radius: 7px;
+    height: 150px;
+    width: 260px;
+}
+
+.link-mail:hover {
+    background-color: #242424;
+    height: 155px;
+    width: 280px;
+    font-size: 20px;
+    .text-mail {
+        margin-left: -120px;
+    }
+    .mail-symbol {
+        font-size: 35px;
+        margin-left: -26px;
+       
+    }
+}
+
+.text-mail {
+    background-color: #242424;
+    position: absolute;
+    margin-top: 86px;
+    margin-left: -105px;
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+}
+
+.text-mail:hover {
+    color: white;
+    font-size: 20px;
+    margin-left: -120px;
+}
+
+/*call*/
+
+.card-phone {
+    margin-left: -40px;
+}
+
+.phone-symbol {
+    position: absolute;
+    background-color: #242424;
+    font-size: 40px;
+    margin-top: 39px;
+    margin-left: -25px;
+}
+
+
+.link-phone {
+    position: absolute;
+    margin-top: 240px;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    background-color: #242424;
+    border-radius: 7px;
+    height: 150px;
+    width: 260px;
+}
+
+.link-phone:hover {
+    background-color: #242424;
+    height: 155px;
+    width: 280px;
+    font-size: 20px;
+    .text-phone {
+        margin-left: -90px;
+    }
+    .phone-symbol {
+        font-size: 35px;
+        margin-left: -22px;
+       
+    }
+}
+
+.text-phone {
+    background-color: #242424;
+    position: absolute;
+    margin-top: 86px;
+    margin-left: -76px;
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+}
+
+.text-phone:hover {
+    color: white;
+    font-size: 20px;
+    margin-left: -100px;
+}
+
+/*My CV*/
+
+.card-cv {
+    margin-left: -40px;
+}
+
+.cv-symbol {
+    position: absolute;
+    background-color: #242424;
+    font-size: 40px;
+    margin-top: 39px;
+    margin-left: -25px;
+}
+
+
+.link-cv {
+    position: absolute;
+    margin-top: 427px;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    background-color: #242424;
+    border-radius: 7px;
+    height: 150px;
+    width: 260px;
+}
+
+.link-cv:hover {
+    background-color: #242424;
+    height: 155px;
+    width: 280px;
+    font-size: 20px;
+    .text-cv {
+        margin-left: -90px;
+    }
+    .cv-symbol {
+        font-size: 35px;
+        margin-left: -22px;
+       
+    }
+}
+
+.text-cv {
+    background-color: #242424;
+    position: absolute;
+    margin-top: 86px;
+    margin-left: -76px;
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+}
+
+.text-cv:hover {
+    color: white;
+    font-size: 20px;
+    margin-left: -100px;
+}
+
+#end-line {
+    margin-top: 100px;  
+    height: 2.5px;
+    background-color: #1d1d1d;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mail-links-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    padding: 0.75rem
+    rem
+     1.25rem;
+    color: var(--color-white-060);
+    background: var(--color-panel-bg);
+    white-space: nowrap;
+    transition: background-color .2s ease;
+}
+
+.mail-links-footer:hover {   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    padding: 0.75rem
+    rem
+     1.25rem;
+    color: var(--color-white-060);
+    background: var(--color-panel-bg);
+    white-space: nowrap;
+    transition: background-color .2s ease;
+}
+
+.in-links-footer {
+    margin-left: 70px;
+    text-decoration: none;
+    color: white;
     position: relative;
     font-size: 25px;
     font-weight: bold;
 }
 
-.cv-links {
+.in-links-footer:hover {
+    margin-left: 70px;
     text-decoration: none;
-    color: inherit;
+    color: red;
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cv-links-footer {
+    text-decoration: none;
+    color: white;
     position: relative;
     font-weight: bold;
     height: 30px;
-    margin-left: 60px;
+    margin-left: 608px;
 }
+
+.cv-links-footer:hover {
+    text-decoration: none;
+    color: red;
+    position: relative;
+    font-weight: bold;
+    height: 30px;
+    margin-left: 608px;
+}
+
+
+
+
+
 
 .material-symbols-outlined {
     margin-top: 20px;
@@ -165,11 +758,6 @@ header .header-right {
 header .header-right img {
     width: 350px;
     margin-top: -100px;
-}
-
-/*A propos de moi*/
-.about {
-    margin-top: 290px;
 }
 
 .about p {
@@ -211,21 +799,8 @@ footer p{
    font-size: 15px;
 }
 
-.saex {
-    border: 0px;
-}
 
-.join-me-footer {
-    position: relative;
-    margin-top: 55px;
-    margin-left: 580px;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 900;
-    color: aliceblue;
-    text-decoration: underline red 3px;
-    text-underline-position: under;
-}
+
 
 .see-contact-footer {
     position: absolute;
@@ -239,70 +814,16 @@ footer p{
     margin-top: -15px;
 }
 
-.mail-links-footer {   
-    margin-left: 500px; 
-    text-decoration: none;
-    color: white;
-    position: absolute;
-    font-weight: bold;
-}
-
-.mail-links-footer:hover {   
-    margin-left: 500px; 
-    text-decoration: none;
-    color: red;
-    position: absolute;
-    font-weight: bold;
-}
-
-.in-links-footer {
-    margin-left: 70px;
-    text-decoration: none;
-    color: white;
-    position: relative;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.in-links-footer:hover {
-    margin-left: 70px;
-    text-decoration: none;
-    color: red;
-    position: relative;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.cv-links-footer {
-    text-decoration: none;
-    color: white;
-    position: relative;
-    font-weight: bold;
-    height: 30px;
-    margin-left: 608px;
-}
-
-.cv-links-footer:hover {
-    text-decoration: none;
-    color: red;
-    position: relative;
-    font-weight: bold;
-    height: 30px;
-    margin-left: 608px;
-}
-
-.gmp {
-    margin-top: 15px;
-    height: 400px;
-    width: 1335px;
-}
 
 .fin-footer {
     position: relative;
-    margin-top: 80px;
+    margin-top: 300px;
     padding-bottom: 10px;
     color: #808080;
 }
+
+
+
 
 .saouli-footer {
     position: relative;
@@ -312,8 +833,38 @@ footer p{
 
 .copy-r-footer {
     position: relative;
-    margin-left: 575px;
+    font-size: 18px;
+    margin-left: 580px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Responsive decription image du bas*/
 @media screen and (max-width: 880px){
@@ -419,56 +970,47 @@ footer p{
     margin-left: 78px;
 }
 
+
+}
+
+
+
+
 .fin-footer {
     position: relative;
-    margin-top: 40px;
-    padding-bottom: 10px;
+    margin-top: 00px;
     color: #808080;
 }
 
 .saouli-footer {
     position: relative;
-    margin-left: 25px;
+    margin-left: 1138px;
+    margin-top: -53px;
 
 }
 
 .copy-r-footer {
     position: relative;
-    margin-left: 48px;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 20px;
 }
-}
+
+
+
+
+
+
+
+
+
+
 .reloadlogo{
     text-decoration: none;
     color: white;
     margin-left: -39px;
 }
 
-#container {
-    position: absolute;
-    margin-left: 733px;
-    margin-top: 300px;
-}
-
-#joineddine {
-    margin-left: 394px;
-    margin-top: -25px;
-    color: red;
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: none;
-}
-
-.pres1 {
-    position: relative;
-    margin-top: 20px;
-    text-decoration: none;
-    margin-right: 670px;
-}
-
-.my-skills  {
-    margin-top: 400px;
-    font-size: 27px;
-}
 
 .My-OS {
     margin-top: 75px;
@@ -477,11 +1019,6 @@ footer p{
     margin-left: 425px;
 }
 
-#os-3d {
-    position: relative;
-    margin-left: 150px;
-    margin-top: 50px;
-}
 
 .my-language {
     position: relative;
@@ -490,15 +1027,6 @@ footer p{
     margin-left: 425px;
 }
 
-#card-competence {
-    margin-top: 50px;
-    margin-left: 150px;
-}
 
-.cci-title {
-    margin-top: -50px;
-    margin-left: 0px;
-    font-size: 22px;
-    position: relative;
-}
+
 
